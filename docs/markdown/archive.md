@@ -12,6 +12,7 @@
 - сотрудник-преподаватель.
 
 Для перемещения:
+
 1. Откройте нужный тренинг и перейдите на вкладку **«Настройки»**.
 
     <img src="https://fs-thb03.getcourse.ru/fileservice/file/thumbnail/h/1289bf198bf3f3c60c06dc7484981ea8.png/s/s1200x/a/116/sc/162" class="border" alt="Вкладка «Настройки»">
@@ -61,6 +62,7 @@
 - администратор.
 
 Для этого:
+
 1. Перейдите в папку **«Архивные тренинги»**.
 
     <img src="https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/0184b2b40af3c1adcec783af624b6ef0.png/s/s1200x/a/116/sc/317" class="border" alt="Папка «Архивные тренинги» в списке тренингов">
