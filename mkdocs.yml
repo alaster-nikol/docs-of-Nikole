@@ -21,9 +21,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Переключить на светлую тему
-
   language: ru # Язык
-
   features:
     - navigation.path
     - navigation.instant

@@ -1,8 +1,18 @@
-img.border {
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
+/* Общие стили для всех изображений */
+.md-typeset img {
+  display: block;
   max-width: 100%;
   height: auto;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+/* Стили для изображений с границей */
+.md-typeset img.border,
+img.border {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 4px !important;
+  padding: 4px !important;
 }
 
 /* Совет — ненавязчивый оранжевый */
@@ -31,22 +41,4 @@ img.border {
   background-color: #ecfdf5 !important;
   border-color: #047857 !important;
   color: #065f46 !important;
-}
-
-/* Единообразные отступы вокруг изображений */
-.md-typeset img {
-  display: block;
-  margin-top: 1.2em;
-  margin-bottom: 1.2em;
-}
-
-/* Если используете класс border — тоже задайте отступы */
-.md-typeset img.border {
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  max-width: 100%;
-  height: auto;
-  /* Отступы уже заданы выше, но можно уточнить: */
-  margin-top: 1.2em;
-  margin-bottom: 1.2em;
 }
