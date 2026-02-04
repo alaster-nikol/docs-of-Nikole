@@ -1,0 +1,44 @@
+/* Общие стили для всех изображений */
+.md-typeset img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+/* Стили для изображений с границей */
+.md-typeset img.border,
+img.border {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 4px !important;
+  padding: 4px !important;
+}
+
+/* Совет — ненавязчивый оранжевый */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #f59e0b !important;
+}
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset details.tip > summary {
+  background-color: #fffbeb !important;
+  border-color: #f59e0b !important;
+  color: #92400e !important;
+}
+
+/* Важно / Обратите внимание — ненавязчивый зелёный */
+.md-typeset .admonition.note,
+.md-typeset .admonition.warning,
+.md-typeset details.note,
+.md-typeset details.warning {
+  border-color: #047857 !important;
+}
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset details.note > summary,
+.md-typeset details.warning > summary {
+  background-color: #ecfdf5 !important;
+  border-color: #047857 !important;
+  color: #065f46 !important;
+}
