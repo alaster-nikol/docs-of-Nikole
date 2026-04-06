@@ -21,11 +21,14 @@
 
 ## 🛠️ Мои инструменты
 
-- **Документация**: Markdown, HTML, Docs as Code, Confluence, Notion, Google Docs
-- **Верстка и публикация**: GitHub Pages, GitLab, MkDocs, Jekyll, VS Code
-- **Дизайн и медиа**: Figma, Canva, ScreenToGif
-- **Управление задачами**: Trello, YouGile, Kaiten, Jira
-- **ИИ-ассистенты**: ChatGPT, DeepSeek, Gemini, Qwen — для анализа, редактирования и генерации черновиков
+- **Редакторы и разметка**: VS Code, Markdown, HTML, CSS (чтение и правка)
+- **Платформы для документации**: Google Docs, Notion, MkDocs, GitHub Pages, блочный редактор GetCourse
+- **Дизайн и визуальный контент**: Figma, Canva, ScreenToGif, Яндекс.Диск
+- **Контроль версий и Docs as Code**:  Git, GitHub, Docs as Code
+- **Работа с API**: Postman, базовые знания API
+- **Управление задачами**: Trello, YouGile, Kaiten
+- **Аналитика и данные**: Google Sheets
+- **ИИ-инструменты**: Gemini, Qwen, Nano Banana
 
 ---
 
