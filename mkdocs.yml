@@ -5,7 +5,6 @@ site_url: https://github.com/alaster-nikol
 theme:
   name: material
   palette:
-    # Светлая тема по умолчанию
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: teal
@@ -13,7 +12,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Переключить на тёмную тему
-    # Тёмная тема (опционально)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: teal
@@ -21,7 +19,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Переключить на светлую тему
-  language: ru # Язык
+  language: ru
   features:
     - navigation.path
     - navigation.instant
@@ -41,13 +39,17 @@ extra_css:
 markdown_extensions:
   - toc:
       permalink: true
-  - footnotes # Поддержка встроенных сносок на страницах
-  - def_list # Поддержка списков определений
-  - pymdownx.tabbed # Использование вкладок (табов)
-  - pymdownx.snippets # Использование заимствованного контента
-  - pymdownx.emoji: # Иконки и эмодзи
+  - footnotes
+  - def_list
+  - pymdownx.tabbed:  # ← Объединённая конфигурация (было два отдельных пункта)
+      alternate_style: true
+  - pymdownx.snippets
+  - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:  # ← Добавлен блок options для совместимости
+        custom_icons:
+          - overrides/.icons
   - tables
   - fenced_code
   - admonition
@@ -57,8 +59,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.superfences
   - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
 
 nav:
   - Главная: index.md
