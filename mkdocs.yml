@@ -31,6 +31,10 @@ theme:
     - search.highlight
     - content.code.copy
 
+plugins:
+  - search
+  - open-in-new-tab
+
 extra_css:
   - stylesheets/extra.css
 
